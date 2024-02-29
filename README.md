@@ -1,49 +1,51 @@
-# Desafio Nodejs Moniari
+# Desafio Python Moniari
 
 ## Descrição
 
-Este projeto foi criado para testar seu conhecimento em tecnologias web de back-end, especificamente no python, APIs Rest e serviços desacoplados.
+Este projeto foi desenvolvido para avaliar suas habilidades com tecnologias de back-end, focando em Python, APIs REST, e arquitetura de serviços desacoplados.
 
 ## Tarefa
-O objetivo deste exercício é criar uma API simples usando python (Fastapi) para permitir que os usuários consultem cotações de ações.
-O projeto consiste em dois serviços separados:
 
-* Uma API voltada para o usuário que receberá solicitações de usuários registrados pedindo informações sobre cotações.
-* Um serviço agregador de ações interno que consulta APIs externas para recuperar as informações de cotações solicitadas.
+O desafio consiste em criar uma API simples utilizando Python (FastAPI), que permita aos usuários consultar cotações de ações.
+O projeto é dividido em dois serviços distintos:
 
-## Requisitos mínimos
+- Uma API voltada para o usuário final, que processa solicitações de usuários registrados em busca de informações sobre cotações de ações.
+- Um serviço interno agregador de cotações, responsável por consultar APIs externas para buscar as cotações solicitadas pelos usuários.
 
-### Serviço API
+## Requisitos Mínimos
 
-* Os endpoints no serviço API devem exigir autenticação (não devem ser permitidas solicitações anônimas). Cada solicitação deve ser autenticada via Basic Authentication (exemplo: `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==` onde o token é o Base64 do username:senha).
+### Serviço de API
 
-* Quando um usuário faz uma solicitação para obter uma cotação de ação (chama o endpoint de ação no serviço de api), se uma ação for encontrada, ela deve logar no console o usuário que faz a solicitação e a ação solicitada.
+- Os endpoints deste serviço devem exigir autenticação, não permitindo solicitações anônimas. Cada solicitação deve ser autenticada utilizando Basic Authentication (exemplo: -Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==- onde o token é a conversão em Base64 de username:senha).
 
-* A resposta retornada pelo serviço API deve ser assim:
-`GET /stock?q=aapl.us`
-```
+- Ao receber uma solicitação de cotação de ação (através do endpoint dedicado no serviço de API), se a ação for encontrada, o serviço deve registrar no console o usuário requisitante e a ação solicitada.
+
+- A resposta do serviço de API deve seguir o formato: `GET /stock?q=aapl.us`
+
+```python
 {
   "simbolo": "AAPL.US",
   "nome_da_empresa": "APPLE",
   "cotacao": 123
 }
 ```
-O valor da cotação deve ser obtido do campo `close` retornado pelo serviço de ações.
 
-* Todas as respostas dos endpoints devem estar no formato JSON.
+O valor da cotação deve ser extraído do campo `close` retornado pelo serviço de cotações.
 
-### Serviço de Ações
+- Todas as respostas dos endpoints devem ser em formato JSON.
 
-* Assuma que este é um serviço interno, então solicitações para endpoints neste serviço não precisam ser autenticadas.
-* Quando uma solicitação de ação é recebida, este serviço deve consultar uma API externa para obter as informações da ação. Para este desafio, use esta API: `https://stooq.com/q/l/?s={codigo_da_acao}&f=sd2t2ohlcvn&h&e=csv`.
-* Note que `{codigo_da_acao}` acima é um parâmetro que deve ser substituído pelo código da ação solicitada.
-* Você pode ver uma lista de códigos de ações disponíveis aqui: https://stooq.com/t/?i=518
+### Serviço de Cotações
+
+- Considerando que este serviço é interno, solicitações para seus endpoints não requerem autenticação.
+- Ao receber uma solicitação de cotação, este serviço deve consultar uma API externa para obter as informações necessárias. Para este desafio, utilize a seguinte API: -https://stooq.com/q/l/?s={codigo_da_acao}&f=sd2t2ohlcvn&h&e=csv-.
+- O `{codigo_da_acao}` deve ser substituído pelo código da ação desejada pelo usuário.
+- Uma lista de códigos de ações disponíveis pode ser encontrada em: https://stooq.com/t/?i=518
 
 ### Arquitetura
-![Architecture Diagram](arquitetura.png)
-1. Um usuário faz uma solicitação pedindo a cotação atual da ação da Apple: GET /stock?q=aapl.us
-2. O serviço API chama o serviço de ações para recuperar as informações da ação solicitada
-3. O serviço de ações delega a chamada para a API externa, analisa a resposta e retorna as informações de volta para o serviço API.
-4. Os dados são formatados e retornados ao usuário.
 
+![Diagrama de Arquitetura](arquitetura.png)
 
+1. Um usuário solicita a cotação atual de uma ação da Apple: `GET /stock?q=aapl.us`
+2. O serviço de API encaminha a solicitação para o serviço de cotações para obter as informações necessárias.
+3. O serviço de cotações consulta a API externa, processa a resposta e retorna as informações para o serviço de API.
+4. As informações são formatadas e enviadas de volta ao usuário.
