@@ -7,9 +7,11 @@ class Settings(BaseSettings):
     PROJECT_NAME: str
     USERNAME: str
     PASSWORD: str
+    API_STOCK_URL: str
+    API_STOCK_SUFFIX: str
 
     class Config:
-        env_file = "./stock_service/.env"
+        env_file = "./.env"
         env_file_encoding = "utf-8"
 
 

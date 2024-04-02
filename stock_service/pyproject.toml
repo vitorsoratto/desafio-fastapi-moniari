@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "api-service"
+name = "stock-service"
 version = "0.1.0"
-description = "this is the api service"
+description = "this is the stock service"
 authors = ["Moniari <ti@moniari.com.br>"]
 readme = "README.md"
 packages = [{include = "api_service"}]
@@ -12,6 +12,8 @@ fastapi = {extras = ["all"], version = "0.110.0"}
 pydantic = {extras = ["dotenv"], version = "2.6.3"}
 pydantic-settings = "^2.2.1"
 watchfiles = "^0.21.0"
+aiohttp = "^3.9.3"
+loguru = "^0.7.2"
 
 
 [build-system]
