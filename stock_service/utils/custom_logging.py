@@ -3,10 +3,8 @@ import logging
 import sys
 from pathlib import Path
 from pprint import pformat
-from typing import Any
 
 from loguru import logger
-from fastapi import Request
 
 
 class InterceptHandler(logging.Handler):
