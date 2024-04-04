@@ -3,8 +3,8 @@ from typing import Optional
 
 
 class StockSchema(BaseModel):
-    symbol: str | None
-    name: str | None
+    symbol: Optional[str] | None
+    name: Optional[str] | None
     date: Optional[str] = None
     time: Optional[str] = None
     open: Optional[float] = None
