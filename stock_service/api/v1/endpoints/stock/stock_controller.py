@@ -38,24 +38,20 @@ class StockController:
                     content_type = response.headers.get('Content-Type')
 
                     if 'text/csv' not in content_type:
-                        raise DefaultException
+                        raise DefaultException(message='Error finding the stock', code=400)
                     else:
                         csv_response = await response.text()
                         response_json = csv_to_json(csv_response)
 
                         if response_json.get('date') == 'N/D':
-                            raise DefaultException
+                            raise DefaultException(message='Not Found', code=404)
 
                         request.app.logger.info(f'response - {response_json}')
                         return StockSchema(**response_json)
 
         except DefaultException as ex:
-            message = response.reason if not ex.message else 'Not Found'
-            code = response.status if not ex.code else response.status
-
-        request.app.logger.error(
-            f'Stock: "{stock_symbol.upper()}"'
-            f' / {message=} / {code=} / {response_json=}'
-        )
-
-        raise DefaultException(detail=f"Stock '{stock_symbol.upper()}'", message=message, code=code)
+            request.app.logger.error(
+                f'Stock: "{stock_symbol.upper()}"'
+                f' / {response_json=} / {ex=}'
+            )
+            raise

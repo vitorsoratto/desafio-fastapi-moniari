@@ -46,24 +46,10 @@ def get_config():
     return log
 
 
-def format_record(record: dict) -> str:
-    log = get_config()
-    logger_format = log.get('format')
-
-    if record["extra"].get("payload") is not None:
-        record["extra"]["payload"] = pformat(
-            record["extra"]["payload"], indent=4, compact=True, width=88
-        )
-        logger_format += "\n<level>{extra[payload]}</level>"
-
-    logger_format += "{exception}\n"
-
-    return logger_format
-
-
 def setup_logging():
     log = get_config()
     path = log.get('path')
+    logger_format = log.get('format')
 
     logger.remove()
 
@@ -72,14 +58,14 @@ def setup_logging():
         enqueue=True,
         backtrace=True,
         level='INFO',
-        format=format_record,
+        format=logger_format,
     )
     logger.add(
         str(path),
         enqueue=True,
         backtrace=True,
         level='INFO',
-        format=format_record,
+        format=logger_format,
     )
 
     loggers = (

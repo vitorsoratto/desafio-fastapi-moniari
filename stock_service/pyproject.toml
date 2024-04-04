@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "this is the stock service"
 authors = ["Moniari <ti@moniari.com.br>"]
 readme = "README.md"
-packages = [{include = "api_service"}]
+packages = [{include = "stock-service"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

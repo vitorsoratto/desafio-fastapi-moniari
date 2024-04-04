@@ -1,0 +1,210 @@
+INFO     2024-04-04 00:24:17.496 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 00:24:18.516 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 00:24:18.518 logging:callHandlers - 127.0.0.1:54766 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 00:27:45.240 logging:callHandlers - Shutting down
+WARNING  2024-04-04 01:47:15.799 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 01:47:15.801 logging:callHandlers - Started server process [456270]
+INFO     2024-04-04 01:47:15.802 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 01:47:15.804 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 01:47:19.307 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 01:47:20.806 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 01:47:20.808 logging:callHandlers - 127.0.0.1:42606 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 01:47:22.861 logging:callHandlers - Shutting down
+INFO     2024-04-04 01:47:22.963 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 01:47:22.965 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 01:48:53.284 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 01:48:53.286 logging:callHandlers - Started server process [456739]
+INFO     2024-04-04 01:48:53.287 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 01:48:53.289 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 01:48:55.399 logging:callHandlers - Shutting down
+INFO     2024-04-04 01:48:55.499 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 01:48:55.502 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 02:05:15.240 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 02:05:15.242 logging:callHandlers - Started server process [464976]
+INFO     2024-04-04 02:05:15.243 logging:callHandlers - Waiting for application startup.
+WARNING  2024-04-04 02:24:22.489 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 02:24:22.490 logging:callHandlers - Started server process [476580]
+INFO     2024-04-04 02:24:22.490 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 02:24:22.491 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 02:24:23.695 logging:callHandlers - Shutting down
+INFO     2024-04-04 02:24:23.797 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 02:24:23.798 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:51:41.206 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:51:41.208 logging:callHandlers - Started server process [64964]
+INFO     2024-04-04 09:51:41.210 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:51:41.211 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:51:49.650 logging:callHandlers - 127.0.0.1:38806 - "GET /docs HTTP/1.1" 200
+INFO     2024-04-04 09:51:50.047 logging:callHandlers - 127.0.0.1:38806 - "GET /api/v1/openapi.json HTTP/1.1" 200
+INFO     2024-04-04 09:52:33.860 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+ERROR    2024-04-04 09:52:35.230 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM" / message='Not Found' / code=200 / response_json={'symbol': 'TEAM', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'TEAM'}
+INFO     2024-04-04 09:52:35.232 logging:callHandlers - 127.0.0.1:41840 - "GET /api/v1/stock/team HTTP/1.1" 200
+INFO     2024-04-04 09:53:02.091 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:53:02.192 logging:callHandlers - Waiting for application shutdown.
+WARNING  2024-04-04 09:53:04.745 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:53:04.748 logging:callHandlers - Started server process [65240]
+INFO     2024-04-04 09:53:04.749 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:53:04.751 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:53:07.482 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+ERROR    2024-04-04 09:53:08.545 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM" / message='Not Found' / code=200 / response_json={'symbol': 'TEAM', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'TEAM'}
+INFO     2024-04-04 09:53:08.547 logging:callHandlers - 127.0.0.1:58244 - "GET /api/v1/stock/team HTTP/1.1" 200
+INFO     2024-04-04 09:54:01.836 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:54:01.938 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 09:54:01.939 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:54:04.368 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:54:04.370 logging:callHandlers - Started server process [65378]
+INFO     2024-04-04 09:54:04.370 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:54:04.372 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:55:15.996 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:55:16.098 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 09:55:16.100 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:55:19.010 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:55:19.011 logging:callHandlers - Started server process [65590]
+INFO     2024-04-04 09:55:19.013 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:55:19.015 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:56:17.784 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:56:17.886 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 09:56:17.889 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:56:21.134 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:56:21.136 logging:callHandlers - Started server process [65752]
+INFO     2024-04-04 09:56:21.137 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:56:21.139 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:57:44.201 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:57:44.303 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 09:57:44.305 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:57:46.608 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:57:46.610 logging:callHandlers - Started server process [65938]
+INFO     2024-04-04 09:57:46.611 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:57:46.613 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:58:32.113 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:58:32.215 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 09:58:32.217 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:58:34.615 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:58:34.617 logging:callHandlers - Started server process [66122]
+INFO     2024-04-04 09:58:34.619 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:58:34.622 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:58:36.823 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+INFO     2024-04-04 09:58:39.013 logging:callHandlers - 127.0.0.1:33836 - "GET /api/v1/stock/team HTTP/1.1" 404
+INFO     2024-04-04 09:59:11.314 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:59:11.415 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 09:59:11.416 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:59:13.795 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:59:13.797 logging:callHandlers - Started server process [66226]
+INFO     2024-04-04 09:59:13.799 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:59:13.801 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:59:15.807 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+ERROR    2024-04-04 09:59:16.921 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM" / response_json={'symbol': 'TEAM', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'TEAM'} / ex=DefaultException()
+INFO     2024-04-04 09:59:16.922 logging:callHandlers - 127.0.0.1:51858 - "GET /api/v1/stock/team HTTP/1.1" 404
+INFO     2024-04-04 09:59:47.479 logging:callHandlers - Shutting down
+INFO     2024-04-04 09:59:47.581 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 09:59:47.582 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 09:59:49.979 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 09:59:49.981 logging:callHandlers - Started server process [66318]
+INFO     2024-04-04 09:59:49.982 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 09:59:49.984 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 09:59:52.896 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+ERROR    2024-04-04 09:59:54.086 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM" / response_json={'symbol': 'TEAM', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'TEAM'} / ex=DefaultException()
+INFO     2024-04-04 09:59:54.087 logging:callHandlers - 127.0.0.1:45250 - "GET /api/v1/stock/team HTTP/1.1" 404
+INFO     2024-04-04 09:59:59.187 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+ERROR    2024-04-04 10:00:29.637 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM" / response_json={'symbol': 'TEAM', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'TEAM'} / ex=DefaultException()
+INFO     2024-04-04 10:00:29.639 logging:callHandlers - 127.0.0.1:45258 - "GET /api/v1/stock/team HTTP/1.1" 404
+INFO     2024-04-04 10:00:35.440 logging:callHandlers - 127.0.0.1:60494 - "GET /api/v1/stock/ HTTP/1.1" 404
+INFO     2024-04-04 10:00:38.457 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "S"
+ERROR    2024-04-04 10:00:43.516 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "S" / response_json={'symbol': 'S', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'S'} / ex=DefaultException()
+INFO     2024-04-04 10:00:43.518 logging:callHandlers - 127.0.0.1:60496 - "GET /api/v1/stock/s HTTP/1.1" 404
+INFO     2024-04-04 10:00:46.845 logging:callHandlers - Shutting down
+INFO     2024-04-04 10:00:46.947 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 10:00:46.948 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 10:00:50.706 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 10:00:50.709 logging:callHandlers - Started server process [66491]
+INFO     2024-04-04 10:00:50.711 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 10:00:50.714 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 10:01:09.188 logging:callHandlers - Shutting down
+INFO     2024-04-04 10:01:09.290 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 10:01:09.293 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 10:01:11.670 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 10:01:11.672 logging:callHandlers - Started server process [66567]
+INFO     2024-04-04 10:01:11.673 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 10:01:11.675 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 10:01:16.555 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "S"
+ERROR    2024-04-04 10:01:17.651 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "S" / response_json={'symbol': 'S', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'S'} / ex=DefaultException()
+INFO     2024-04-04 10:01:17.652 logging:callHandlers - 127.0.0.1:43942 - "GET /api/v1/stock/s HTTP/1.1" 404
+INFO     2024-04-04 10:03:25.586 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 10:03:26.609 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 10:03:26.611 logging:callHandlers - 127.0.0.1:40832 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 10:21:48.438 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+ERROR    2024-04-04 10:21:49.946 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM" / response_json={'symbol': 'TEAM', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'TEAM'} / ex=DefaultException()
+INFO     2024-04-04 10:21:49.947 logging:callHandlers - 127.0.0.1:44060 - "GET /api/v1/stock/team HTTP/1.1" 404
+INFO     2024-04-04 10:22:05.233 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM"
+ERROR    2024-04-04 10:22:06.288 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM" / response_json={'symbol': 'TEAM', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'TEAM'} / ex=DefaultException()
+INFO     2024-04-04 10:22:06.289 logging:callHandlers - 127.0.0.1:34372 - "GET /api/v1/stock/team HTTP/1.1" 404
+INFO     2024-04-04 10:22:27.530 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 10:22:28.585 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 10:22:28.587 logging:callHandlers - 127.0.0.1:34050 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 10:22:51.077 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 10:22:52.198 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 10:22:52.199 logging:callHandlers - 127.0.0.1:54876 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 10:23:08.536 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 10:23:09.500 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 10:23:09.502 logging:callHandlers - 127.0.0.1:32900 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 10:25:11.786 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 10:25:12.775 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 10:25:12.776 logging:callHandlers - 127.0.0.1:45978 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 10:25:23.997 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 10:25:25.267 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-03', 'time': '22:00:18', 'open': '194.79', 'high': '197.55', 'low': '194.685', 'close': '195.24', 'volume': '1222526', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 10:25:25.269 logging:callHandlers - 127.0.0.1:49848 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 11:15:33.130 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "DSADSAS"
+ERROR    2024-04-04 11:15:34.564 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "DSADSAS" / response_json={'symbol': 'DSADSAS', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'DSADSAS'} / ex=DefaultException()
+INFO     2024-04-04 11:15:34.565 logging:callHandlers - 127.0.0.1:54144 - "GET /api/v1/stock/dsadsas HTTP/1.1" 404
+INFO     2024-04-04 11:15:43.944 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 11:15:44.940 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-04', 'time': '16:00:30', 'open': '197.52', 'high': '198.16', 'low': '196.22', 'close': '197.055', 'volume': '48606', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 11:15:44.942 logging:callHandlers - 127.0.0.1:34420 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 11:17:44.788 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "APPL.US"
+ERROR    2024-04-04 11:17:45.896 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "APPL.US" / response_json={'symbol': 'APPL.US', 'date': 'N/D', 'time': 'N/D', 'open': 'N/D', 'high': 'N/D', 'low': 'N/D', 'close': 'N/D', 'volume': 'N/D', 'name': 'APPL.US'} / ex=DefaultException()
+INFO     2024-04-04 11:17:45.898 logging:callHandlers - 127.0.0.1:60692 - "GET /api/v1/stock/appl.us HTTP/1.1" 404
+INFO     2024-04-04 11:17:56.844 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 11:17:57.981 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-04', 'time': '16:02:54', 'open': '197.52', 'high': '198.16', 'low': '196.22', 'close': '196.63', 'volume': '52538', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 11:17:57.983 logging:callHandlers - 127.0.0.1:48410 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 11:18:36.151 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 11:18:37.303 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-04', 'time': '16:03:21', 'open': '197.52', 'high': '198.16', 'low': '196.22', 'close': '196.72', 'volume': '52938', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 11:18:37.304 logging:callHandlers - 127.0.0.1:54446 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 11:24:47.173 logging:callHandlers - 127.0.0.1:60334 - "GET /docs HTTP/1.1" 200
+INFO     2024-04-04 11:24:47.548 logging:callHandlers - 127.0.0.1:60334 - "GET /api/v1/openapi.json HTTP/1.1" 200
+INFO     2024-04-04 11:26:30.695 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "JOBY.US"
+INFO     2024-04-04 11:26:32.140 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'JOBY.US', 'date': '2024-04-04', 'time': '16:11:26', 'open': '5', 'high': '5.057', 'low': '4.98', 'close': '5.025', 'volume': '466782', 'name': 'JOBY AVIATION'}
+INFO     2024-04-04 11:26:32.143 logging:callHandlers - 127.0.0.1:45718 - "GET /api/v1/stock/joby.us HTTP/1.1" 200
+INFO     2024-04-04 11:29:59.510 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 11:30:00.608 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-04', 'time': '16:14:56', 'open': '197.52', 'high': '198.16', 'low': '196.22', 'close': '197.19', 'volume': '61433', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 11:30:00.610 logging:callHandlers - 127.0.0.1:45246 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+INFO     2024-04-04 11:32:49.097 logging:callHandlers - Shutting down
+INFO     2024-04-04 11:32:49.198 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 11:32:49.200 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 11:32:52.220 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 11:32:52.222 logging:callHandlers - Started server process [82987]
+INFO     2024-04-04 11:32:52.223 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 11:32:52.225 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 11:34:41.769 logging:callHandlers - Shutting down
+INFO     2024-04-04 11:34:41.870 logging:callHandlers - Waiting for application shutdown.
+INFO     2024-04-04 11:34:41.873 logging:callHandlers - Application shutdown complete.
+WARNING  2024-04-04 11:34:44.544 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+
+INFO     2024-04-04 11:34:44.545 logging:callHandlers - Started server process [83299]
+
+INFO     2024-04-04 11:34:44.545 logging:callHandlers - Waiting for application startup.
+
+INFO     2024-04-04 11:34:44.546 logging:callHandlers - Application startup complete.
+
+INFO     2024-04-04 11:35:01.280 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+
+INFO     2024-04-04 11:35:04.273 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-04', 'time': '16:19:46', 'open': '197.52', 'high': '198.16', 'low': '196.22', 'close': '197.11', 'volume': '68387', 'name': 'ATLASSIAN'}
+
+INFO     2024-04-04 11:35:04.274 logging:callHandlers - 127.0.0.1:53716 - "GET /api/v1/stock/team.us HTTP/1.1" 200
+
+INFO     2024-04-04 11:35:15.297 logging:callHandlers - Shutting down
+
+WARNING  2024-04-04 11:35:17.917 logging:callHandlers - ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO     2024-04-04 11:35:17.918 logging:callHandlers - Started server process [83450]
+INFO     2024-04-04 11:35:17.918 logging:callHandlers - Waiting for application startup.
+INFO     2024-04-04 11:35:17.920 logging:callHandlers - Application startup complete.
+INFO     2024-04-04 11:35:21.340 api.v1.endpoints.stock.stock_controller:get_stock - Stock: "TEAM.US"
+INFO     2024-04-04 11:35:22.520 api.v1.endpoints.stock.stock_controller:get_stock - response - {'symbol': 'TEAM.US', 'date': '2024-04-04', 'time': '16:20:18', 'open': '197.52', 'high': '198.16', 'low': '196.22', 'close': '197.16', 'volume': '68499', 'name': 'ATLASSIAN'}
+INFO     2024-04-04 11:35:22.522 logging:callHandlers - 127.0.0.1:57634 - "GET /api/v1/stock/team.us HTTP/1.1" 200
